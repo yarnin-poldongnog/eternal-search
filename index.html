@@ -30,11 +30,11 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-white top-nav">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent"
-                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        data-bs-target="#main-navbar"
+                        aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse" id="main-navbar">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link" href="#"> Sign Up</a>
@@ -44,6 +44,30 @@
                         </li>
                     </ul>
                 </div>
+            </div>
+        </nav>
+    </div>
+    <div class="grid-row">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white top-nav">
+            <div class="container-fluid">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false">
+                            Settings
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Advanced Search</a></li>
+                            <li><a class="dropdown-item" href="#">History Search</a></li>
+                            <li><a class="dropdown-item" href="#">Comments</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Modes : Night</a></li>
+                            <li><a class="dropdown-item" href="#">Languages : Thai</a></li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
         </nav>
     </div>
@@ -88,6 +112,16 @@
                 </div>
             </div>
         </div>
+        <div class="grid-row__menu-translate">
+            <div class="card border-0 align-items-center">
+                <div class="card-body text-center">
+                    <div class="card-body__icon rounded-circle mb-2">
+                        <i class="fas fa-newspaper"></i>
+                    </div>
+                    <span>News</span>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="grid-row align-items-start">
         <div class="grid-row__inner-container">
@@ -99,28 +133,27 @@
             </div>
             <div class="grid-row__btn-group">
                 <div class="grid-row__btn-group-box text-center">
-                    <a href="" class="text-dark"><i class="fas fa-microphone"></i></a>
+                    <a href="#" class="text-dark"><i class="fas fa-microphone"></i></a>
                 </div>
                 <div class="grid-row__btn-group-box text-center">
-                    <a href="" class="text-dark"><i class="fas fa-image"></i></a>
+                    <a href="#" class="text-dark"><i class="fas fa-image"></i></a>
                 </div>
                 <div class="grid-row__btn-group-box text-center">
-                    <a href="" class="text-dark"><i class="fas fa-search"></i></a>
+                    <a href="./search.html" class="text-dark"><i class="fas fa-search"></i></a>
                 </div>
             </div>
         </div>
-
     </div>
     <div class="grid-row d-flex align-items-end">
         <nav class="navbar navbar-expand-lg navbar-light bg-white bottom-nav w-100">
             <div class="container-fluid">
-                <div class="collapse navbar-collapse" id="navbarFooterContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Advanced Search</a>
-                        </li>
-                    </ul>
-                </div>
+                <!--                <div class="collapse navbar-collapse" id="navbarFooterContent">-->
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Advanced Search</a>
+                    </li>
+                </ul>
+                <!--                </div>-->
             </div>
         </nav>
     </div>
